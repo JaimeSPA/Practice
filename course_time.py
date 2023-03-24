@@ -40,12 +40,3 @@ rem_mins = str(mins/60)
 dec_mins = '0.' + rem_mins.split('.')[1]
 
 print(total_hrs, int(float(dec_mins)*60))
-    #if re_hr:
-        #try:
-            #print(re_hr.group(), re_min.group())
-        #except:
-             #print(re_hr.group())
-            
-    #elif re_min:
-        #print(re_min.group())
-        # Differentiate between 1 and 2 digit minute numbers
